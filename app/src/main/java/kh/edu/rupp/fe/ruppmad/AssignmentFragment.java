@@ -44,12 +44,12 @@ public class AssignmentFragment extends Fragment {
         long timestampMillis = System.currentTimeMillis();
         String currentDateTimeString = String.valueOf(timestampMillis);
 
-//        Insert To db
+        //Insert To db
 //        dbHelper.insertAssignment("CG", currentDateTimeString, "http://www.corelynx.com/sites/default/files/technologies/mobile-application.png");
 //        dbHelper.insertAssignment("MAD", currentDateTimeString, "http://www.corelynx.com/sites/default/files/technologies/mobile-application.png");
 //        dbHelper.insertAssignment("WEB", currentDateTimeString, "http://www.corelynx.com/sites/default/files/technologies/mobile-application.png");
 //        dbHelper.insertAssignment("practicum", currentDateTimeString, "http://www.corelynx.com/sites/default/files/technologies/mobile-application.png");
-//        End Insert To db
+        //End Insert To db
 
         if (dbHelper.getAssignmentData() != null) {
             assignmentsList = dbHelper.getAssignmentData();

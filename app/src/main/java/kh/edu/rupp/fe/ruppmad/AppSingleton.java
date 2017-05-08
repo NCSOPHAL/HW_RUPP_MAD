@@ -1,11 +1,18 @@
 package kh.edu.rupp.fe.ruppmad;
 
+import android.content.ContentValues;
+import android.content.Context;
+
+import kh.edu.rupp.fe.ruppmad.Database.DBHelper;
+
 /**
  * RUPPMAD
  * Created by leapkh on 4/26/17.
  */
 
 public class AppSingleton {
+
+    private DBHelper dbHelper;
 
     private static AppSingleton instance;
 
